@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/shadowlistoffer"
+    android:elevation="4dp">
+
+    <!-- You can customize this layout as per your needs -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/offerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#19A3FF"
+            android:text="Offer Name"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/offerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A8B2C8"
+            android:text="Location"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/offerPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#19A3FF"
+            android:text="$Price/night"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

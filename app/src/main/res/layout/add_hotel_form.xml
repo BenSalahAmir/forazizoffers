@@ -1,0 +1,97 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <!-- Add your form fields here -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/lightblue"
+        android:fontFamily="@font/poppinsbold"/>
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter something"/>
+    <TextView
+        android:textColor="@color/lightblue"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:fontFamily="@font/poppinsbold"/>
+    <EditText
+        android:id="@+id/edittext_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter something"/>
+
+    <TextView
+        android:textColor="@color/lightblue"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:fontFamily="@font/poppinsbold"/>
+    <EditText
+        android:id="@+id/edittext_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter something"/>
+
+    <TextView
+        android:textColor="@color/lightblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:fontFamily="@font/poppinsbold"/>
+    <EditText
+        android:id="@+id/edittext_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter something"/>
+
+    <TextView
+        android:textColor="@color/lightblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:fontFamily="@font/poppinsbold"/>
+    <CheckBox
+        android:id="@+id/checkbox_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pool"/>
+
+    <!-- CheckBox for the second option -->
+    <CheckBox
+        android:id="@+id/checkbox_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GYM"/>
+
+    <!-- CheckBox for the third option -->
+    <CheckBox
+        android:id="@+id/checkbox_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPA"/>
+    <CheckBox
+        android:id="@+id/checkbox_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free WIFI"/>
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightblue"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

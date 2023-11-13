@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/shadowlistoffer"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:layout_marginTop="10dp"
+    android:backgroundTint="@color/white">
+
+    <ImageView
+        android:id="@+id/offerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/img" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/offerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#19A3FF"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="10dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/offerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A8B2C8"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="8dp"
+            android:layout_marginTop="1dp" />
+
+        <TextView
+            android:id="@+id/offerPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#19A3FF"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="8dp"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+</LinearLayout>

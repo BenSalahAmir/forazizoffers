@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+<LinearLayout
+    android:id="@+id/offerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/rectangleblue"
+
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-180dp"
+        app:srcCompat="@drawable/rectangle61" />
+        />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-260dp"
+        app:srcCompat="@drawable/rectangle61" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Our Offers"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="50dp"/>
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+    <Button
+        android:id="@+id/button_open_form"
+        android:backgroundTint="@color/lightblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Offer"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/offerCard"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowlistoffer"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/img" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/offerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#19A3FF"
+                android:text="The Roosevelt Hotel"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="10dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/offerLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A8B2C8"
+                android:text=" 45 E 45th St, New York, NY 10017, USA"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="8dp"
+                android:layout_marginTop="1dp"
+                />
+            <TextView
+                android:id="@+id/offerPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#19A3FF"
+                android:text="$130/night"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="8dp"
+                android:layout_marginTop="1dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
